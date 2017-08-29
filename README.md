@@ -7,10 +7,14 @@ the image and run it
 
 Build
 ```
-  docker build -t hello . 
+  sudo docker build -t hello . 
 ```
 
 run
 ```
-  docker run hello -p 12345:5000
+  docker run -d -p 12345:5000 hello:latest
 ```
+
+to access the endpoint:
+
+http://127.0.0.1:12345/hello
