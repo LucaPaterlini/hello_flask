@@ -7,10 +7,10 @@ the image and run it
 
 Build
 ```
-   docker build -t hello . 
+  docker build -t hello . 
 ```
 
 run
 ```
-    docker run hello -p 12345:5000
+  docker run hello -p 12345:5000
 ```
