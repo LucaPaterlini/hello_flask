@@ -1,0 +1,14 @@
+<!doctype html>
+<title>hello</title>
+
+<script>
+function load() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET", "/hello_world", true);
+  xhttp.send();
+}
+</script>
+<div>
+    World!
+    <button onclick="load()" >Click me</button>
+</div>
